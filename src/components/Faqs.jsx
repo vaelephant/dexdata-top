@@ -3,56 +3,110 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
 
+// const faqs = [
+//   [
+//     {
+//       question: 'What is Datachain and how does it work?',
+//       answer:
+//         '	•	Datachain is a blockchain-based data trading platform that allows data providers and AI developers to securely exchange valuable data. The platform ensures data integrity and security while facilitating transactions.',
+//     },
+//     {
+//       question: 'How does Datachain ensure the security of my data?',
+//       answer: '	•	Datachain uses advanced blockchain technology and encryption methods to ensure that your data storage and transactions are highly secure, protecting your data from unauthorized access.',
+//     },
+//     {
+//       question: 'How do I apply for a job at DexData?',
+//       answer:
+//         'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+//     },
+//   ],
+//   [
+//     {
+//       question: 'What was that testimonial about tax fraud all about?',
+//       answer:
+//         'DexData is just a software application, ultimately your books are your responsibility.',
+//     },
+//     {
+//       question:
+//         'DexData sounds horrible but why do I still feel compelled to purchase?',
+//       answer:
+//         'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+//     },
+//     {
+//       question:
+//         'I found other companies called DexData, are you sure you can use this name?',
+//       answer:
+//         'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+//     },
+//   ],
+//   [
+//     {
+//       question: 'How do you generate reports?',
+//       answer:
+//         'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+//     },
+//     {
+//       question: 'Can we expect more inventory features?',
+//       answer: 'In life it’s really better to never expect anything at all.',
+//     },
+//     {
+//       question: 'I lost my password, how do I get into my account?',
+//       answer:
+//         'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+//     },
+//   ],
+// ]
+
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is Datachain and how does it work?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Datachain is a blockchain-based data trading platform that allows data providers and AI developers to securely exchange valuable data. The platform ensures data integrity and security while facilitating transactions.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'How does Datachain ensure the security of my data?',
+      answer:
+        'Datachain uses advanced blockchain technology and encryption methods to ensure that your data storage and transactions are highly secure, protecting your data from unauthorized access.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'What types of data can I trade on Datachain?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Datachain supports a wide range of data types, including structured and unstructured data, suitable for various applications such as AI training, analytics, and research.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'How can my data contribute to improving AI models?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'By providing high-quality data on Datachain, you help AI developers enhance their models, making AI systems more accurate and effective.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+      question: 'What are the benefits of using blockchain technology for data trading?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Blockchain technology offers transparency, immutability, and security, ensuring that all data transactions on Datachain are traceable and verifiable, minimizing the risk of fraud or data tampering.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+      question: 'How do I get started with Datachain?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'To get started, you can sign up on our platform, create a profile, and start uploading or purchasing data. Detailed guides and support are available to assist you.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'What are the costs associated with using Datachain?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'The costs on Datachain vary depending on the data transactions and services used. We offer a transparent fee structure, and you can find more details on our pricing page.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'How does Datachain handle data privacy and compliance?',
+      answer:
+        'Datachain is committed to protecting user privacy and ensuring compliance with relevant data protection regulations. We use advanced encryption and access control mechanisms to safeguard your data.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Can I track the usage of my data on Datachain?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Yes, Datachain provides detailed transaction records and analytics, allowing you to monitor how your data is being used and by whom.',
     },
   ],
 ]
