@@ -12,10 +12,13 @@ import { Testimonials } from '@/components/Testimonials'
 
 import { Datastats } from '@/components/Datastats'
 import { Supportcenter } from '@/components/Supportcenter'
+import { KeyFeatures } from '@/components/KeyFeatures'
+import { Tokenomics } from '@/components/Tokenomics'
 
 export default function Home() {
   return (
     <>
+
       <Head>
         <title>DexData - Accounting made simple for small businesses</title>
         <meta
@@ -27,6 +30,8 @@ export default function Home() {
     
       <Header />
       <main>
+
+        
         <Hero />
         {/* <PrimaryFeatures /> */}
         {/* <SecondaryFeatures /> */}
@@ -34,9 +39,11 @@ export default function Home() {
         {/* <Testimonials /> */}
         {/* <Pricing /> */}
         <Datastats />
-
+        <KeyFeatures />
+        <Tokenomics />
        
         <Faqs />
+       
         <Supportcenter />
       </main>
       <Footer />
