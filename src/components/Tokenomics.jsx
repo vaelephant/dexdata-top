@@ -18,6 +18,11 @@ export function Tokenomics() {
   }
 
   return (
+    <section
+  id="Tokenomics"
+  aria-label="Tokenomics Section"
+  // className="bg-slate-50 py-20 sm:py-32"
+>
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <div className="mx-auto max-w-2xl lg:text-center">
         <p className="mt-2 text-3xl font-bold tracking-tight text-black sm:text-4xl">
@@ -78,6 +83,7 @@ export function Tokenomics() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

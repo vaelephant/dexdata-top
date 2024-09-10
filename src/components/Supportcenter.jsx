@@ -33,8 +33,7 @@ export  function Supportcenter() {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Support center</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+          Welcome to the DexData Support Center! We’re dedicated to helping users seamlessly and securely engage in the Data + AI blockchain ecosystem. With our platform, you can transform your data, secure storage, AI training, and computing resources into income, contributing to the advancement of AI technology. Our community offers transparent governance, allowing all users to participate in platform decisions. If you encounter any issues, we’re here to support you and ensure that your data and rights are fully protected.
           </p>
         </div>
       </div>
